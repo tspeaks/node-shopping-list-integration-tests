@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: 
+  provider: heroku
+  api_key:
+    secure: ozviNtFll3gJ78s0UucBjMQebt1radU017J6OWBG6J7I4sxLiTRi79XhXYRUKDepp2eepoQ/wqPTYhj31/Uymwf+HR1+9IeADK6pBTDtgToi8JxKiqe4grq7Ctpm3dDTgotB6x06zClxxJebTKKx/kpMiJkezvZxCd1KlR/0pQxCUIIdyJ9ifvSW0hqQx8HV5+oyXtlZHb9p2K5yM/GTbtkf97LzxzLjzcZpip0a0aIBkLbBWP/HiYKexY6/TP/MxKEaOBjIGmd+egqHwi+14fvdCGi+ptzN0NwTcaOR6NJ0uuIbwDhI0j875Ee03dUeTzhPy/deOB/mf0LLHkJKf1dVywZEUJ9ZB5sTzxidRQdGNbGq3LnNbvXgbIqZRl7XLN4WiexsRtGvlvnVD9OOjnxKc2sVbvP4Xmot+oCRV+ndzVZrEqVBSbPa6iklXSlvRBzYQwWLax5NnP/PwJQ6tBfE3rxxgQ1rpkXrOXRHQ+kA7aYD9jEOiBw0lWo3PoX8vfhH0gua7Qi8+UKIAjGyej2e+wxJTYWX4BGF8fNgUZ9zai3tG3zvRjbTLxcAIHVWQITZAhhXys+1YiJsVvTxn99irtm/83VcwoTrubOw2Bvtazmxzu+a73Wuwf7a5oYbLNteVp+JlV9sqitu79yvpnPfyTP+PVrQVTEGFYviMI8=
+  app: stormy-lake-46520
+
+  on:
+    repo: tspeaks/node-shopping-list-integration-tests
